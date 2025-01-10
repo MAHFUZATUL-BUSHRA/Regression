@@ -13,6 +13,33 @@ This notebook provides a detailed walkthrough of multiple linear regression, foc
   * Model Building: Step-by-step guide to fit, interpret, and validate a multiple linear regression model.
   * Evaluation Metrics: Insights into metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and Adjusted R².
 
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/linear/lin1.png)
+
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/linear/lin2.png)
+
+####  Notes:
+ * Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+* The Adjusted R-squared (Co-efficient of Determination/Goodness of Fit)= 0.896 i.e. 89.6% implies that 89.6% of the total variation in Sales is explained by the model i.e. the selected features.
+
+* The goodness of fit test's probability value also shows that the model is a good fit.
+
+* We have also found that Investment on TV (p-value= 0.000) and Radio (p-value= 0.000) Advertisement has Statistically Significant Impact on Sales at 5% level of significance.
+
+##### Diagnostic Check of the Model
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/linear/lin4.png)
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/linear/lin5.png)
+
+##### Model Training on Full Data
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/linear/lin6.png)
+
+#### Interpreting the coefficients:
+
+   * Holding all other features fixed, a 1 unit (1 USD) increase in TV Spend is associated with an average increase in sales of 0.045 units .
+
+   * This basically means that for every $1000 dollars spend on TV Ads, we could expect 45 more units sold.
+
+
 ## 2. Polynomial Regression
 
 This notebook explores the use of polynomial regression to model non-linear relationships between variables.
@@ -24,6 +51,19 @@ Key highlights include:
   * Bias-Variance Tradeoff: Explanation of overfitting and underfitting using visualization techniques.
   * Practical Applications: Examples of where polynomial regression is most useful in real-world scenarios.
 
+#### Comparison with Simple Linear Regression
+
+Results on the Test Set (Note: Use the same Random Split to fairly compare!
+
+   ##### Simple Linear Regression:
+        MAE: 1.213
+        RMSE: 1.516
+
+  ##### Polynomial 2-degree:
+        MAE: 0.4896
+        RMSE: 0.664
+
+![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/poly.png)
 ## 3. Regularization Techniques: Ridge, Lasso, and ElasticNet
 
 This notebook delves into regularization methods that address overfitting in regression models.
