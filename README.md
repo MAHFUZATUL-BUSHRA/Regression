@@ -65,6 +65,7 @@ Results on the Test Set (Note: Use the same Random Split to fairly compare!
 
 ![p](https://github.com/MAHFUZATUL-BUSHRA/Regression_Analysis/blob/main/poly.png)
 ## 3. Regularization Techniques: Ridge, Lasso, and ElasticNet
+Regularization attempts to minimize the RSS (residual sum of squares) by adding a penalty factor. This penalty factor will penalize models that have coefficients that are too large. Some methods of regularization will actually cause non useful features to have a coefficient of zero, in which case the model does not consider the feature.
 
 This notebook delves into regularization methods that address overfitting in regression models.
 Topics covered:
