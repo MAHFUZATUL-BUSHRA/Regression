@@ -2,6 +2,22 @@
 
 This is a comprehensive guide to understanding and applying various regression techniques using Python. This not only cover theoretical aspects but also provide practical demonstrations using datasets. IT enhanced  knowledge of regression methods, their strengths, limitations, and the scenarios where they are most effective.
 
+# 🎯 Project Objectives
+
+  * Understanding Regression Models: Develop a strong conceptual foundation of regression techniques.
+  * Hands-On Learning: Apply regression methods to datasets to gain practical experience.
+  * Model Evaluation: Learn to assess model performance and interpret results effectively.
+  * Regularization Techniques: Understand how regularization helps in handling overfitting and multicollinearity.
+  * Compare and Contrast: Evaluate the strengths and weaknesses of each regression technique.
+
+### Libraries:
+  * numpy
+  * pandas
+  * matplotlib
+  * seaborn
+  * scikit-learn
+  * jupyter
+    
 # 📁 Contents
 ## 1. Multiple Linear Regression in Python
 
@@ -77,30 +93,8 @@ Topics covered:
   * Hyperparameter Tuning: Techniques like Grid Search to optimize regularization parameters.
   * Model Comparison: Evaluating Ridge, Lasso, and ElasticNet on the same dataset for performance benchmarking.
 
-## 🎯 Project Objectives
 
-  * Understanding Regression Models: Develop a strong conceptual foundation of regression techniques.
-  * Hands-On Learning: Apply regression methods to datasets to gain practical experience.
-  * Model Evaluation: Learn to assess model performance and interpret results effectively.
-  * Regularization Techniques: Understand how regularization helps in handling overfitting and multicollinearity.
-  * Compare and Contrast: Evaluate the strengths and weaknesses of each regression technique.
 
-### Libraries:
-
-  * numpy
-  * pandas
-  * matplotlib
-  * seaborn
-  * scikit-learn
-  * jupyter
-
-# 🎯 Project Objectives
-
-  * Understanding Regression Models: Develop a strong conceptual foundation of regression techniques.
-  * Hands-On Learning: Apply regression methods to datasets to gain practical experience.
-  * Model Evaluation: Learn to assess model performance and interpret results effectively.
-  * Regularization Techniques: Understand how regularization helps in handling overfitting and multicollinearity.
-  * Compare and Contrast: Evaluate the strengths and weaknesses of each regression technique.
 # 📖 Learning Outcomes
 
 By working through this project,
@@ -109,6 +103,7 @@ By working through this project,
   * Learn to implement regression models using Python.
   * Understand the importance of regularization and how to apply it.
   * Develop skills to interpret model outputs and derive actionable insights.
+    
 # 🛠️ Future Improvements
 
 * Add real-world datasets for practical applications.
